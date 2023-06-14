@@ -1,0 +1,14 @@
+@use './generalStyles/colors.scss';
+@import url('https://fonts.cdnfonts.com/css/pp-fragment');
+
+body {
+  margin: 0;
+  font-family: 'PP Fragment', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: colors.$white;;
+}
+
+* {
+  box-sizing: border-box;
+}
